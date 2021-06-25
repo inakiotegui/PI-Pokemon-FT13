@@ -1,0 +1,19 @@
+.btn_back{
+    background-color: #00000077;
+    color: white;
+    font-size: 25px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 6px;
+    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3);
+    transition: 0.5s;
+    margin-top: 20px;
+}
+.btn_back:hover{
+    transition: 0.5s;
+    background-color: rgba(0, 0, 0, 0.938);
+    transform: translateY(-3px);
+    box-shadow: 0 0 5px 0 black;
+    cursor: pointer;
+}

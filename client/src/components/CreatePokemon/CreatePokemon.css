@@ -1,0 +1,179 @@
+.div_title_daleboca{
+    font-size: 20px;
+    color: white;
+    margin-left: 280px;
+    transition: 0.5s;
+    width: 70%;
+}
+.div_title_daleboca:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+    color: #ffcb05;
+    text-shadow: 0 0 5px 0 black;
+}
+.div_name1{
+    color: white;
+	font-size: 23px;
+}
+.div_name1 input{
+    background-color: #00000077;
+    color: white;
+    font-size: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 6px;
+    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3);
+    transition: 0.5s;
+}
+.div_hp{
+    color: white;
+	font-size: 23px;
+}
+.div_hp input{
+    background-color: #00000077;
+    color: white;
+    font-size: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 6px;
+    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3);
+    transition: 0.5s;
+}
+.div_attack{
+    color: white;
+	font-size: 23px;
+}
+.div_attack input{
+    background-color: #00000077;
+    color: white;
+    font-size: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 6px;
+    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3);
+    transition: 0.5s;
+}
+.div_defense{
+    color: white;
+	font-size: 23px;
+}
+.div_defense input{
+    background-color: #00000077;
+    color: white;
+    font-size: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 6px;
+    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3);
+    transition: 0.5s;
+}
+.div_speed{
+    color: white;
+	font-size: 23px;
+}
+.div_speed input{
+    background-color: #00000077;
+    color: white;
+    font-size: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 6px;
+    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3);
+    transition: 0.5s;
+}
+.div_height{
+    color: white;
+	font-size: 23px;
+}
+.div_height input{
+    background-color: #00000077;
+    color: white;
+    font-size: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 6px;
+    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3);
+    transition: 0.5s;
+}
+.div_weight{
+    color: white;
+	font-size: 23px;
+}
+.div_weight input{
+    background-color: #00000077;
+    color: white;
+    font-size: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 6px;
+    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3);
+    transition: 0.5s;
+}
+.div_image{
+    color: white;
+	font-size: 23px;
+}
+.div_image input{
+    background-color: #00000077;
+    color: white;
+    font-size: 20px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 6px;
+    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3);
+    transition: 0.5s;
+}
+.div_types2{
+    color: white;
+	font-size: 23px;
+}
+.div_types2 select{
+    cursor: pointer;
+    box-shadow: 3px 3px 5px rgb(20 20 20 / 80%);
+    color: white;
+    background-color: #00000077;
+    font-family: 'Teko', sans-serif;
+    font-size: 18px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 6px;
+}
+.div_types2 option {
+    color: black;
+    font-size: 16px;
+    background-color:#00000077;
+}
+.div_submit1{
+    background-color: #00000077;
+    margin-top: 15px;
+    color: white;
+    font-size: 30px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 6px;
+    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3);
+    transition: 0.3s;
+}
+.div_submit1:hover{
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: #ffcb05;
+    transform: translateY(3px);
+    box-shadow: 0 0 5px 0 black;
+}
+.div_create_confirm{
+    color: white;
+	font-size: 23px;
+    margin-top: -15px;
+    background-color: #f02c25;
+}
