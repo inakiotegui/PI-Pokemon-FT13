@@ -62,7 +62,16 @@ router.get('/', async (req, res, next) => {
         if (pokemonList.length<40){
             let api = await axios.get(`${BASE_URL}`)
             let api2 = await axios.get(api.data.next)
-            let allApi = api.data.results.concat(api2.data.results)
+            let api3 = await axios.get(api2.data.next)
+            let api4 = await axios.get(api3.data.next)
+            let api5 = await axios.get(api4.data.next)
+            let api6 = await axios.get(api5.data.next)
+            let api7 = await axios.get(api6.data.next)
+            let api8 = await axios.get(api7.data.next)
+            let api9 = await axios.get(api8.data.next)
+            let api10 = await axios.get(api9.data.next)
+            let api11 = await axios.get(api10.data.next)
+            let allApi = api.data.results.concat(api2.data.results,api3.data.results,api4.data.results,api5.data.results,api6.data.results,api7.data.results,api8.data.results,api9.data.results,api10.data.results,api11.data.results)
             //let slicedApi = api.data.results.slice(0,12)
             //console.log(allApi)
             for(i = 0; i < allApi.length; i++) {
@@ -70,7 +79,9 @@ router.get('/', async (req, res, next) => {
                 //console.log(pokemon)
                 pokemonList.push({
                     id: pokemon.data.id,
-                    image: pokemon.data.sprites.other.dream_world.front_default, 
+                    //image: pokemon.data.sprites.other.dream_world.front_default, 
+                    image: pokemon['data']['sprites']['versions']['generation-v']['black-white']['animated']['front_default'], 
+                    //image: pokemon['data']['sprites']['other']['official-artwork']['front_default'],
                     attack: pokemon.data.stats[1].base_stat,
                     defense: pokemon.data.stats[2].base_stat,
                     name: pokemon.data.name.charAt(0).toUpperCase() + pokemon.data.name.slice(1), 
@@ -104,8 +115,10 @@ router.get('/:idPokemon', async (req, res, next) => {
     }
     else {try {
         let api = await axios.get(`${BASE_URL}/${idPokemon}`)
+        //console.log(api,'*************')
         let info = {
             image: api.data.sprites.other.dream_world.front_default,
+            //image: api['data']['sprites']['other']['official-artwork']['front_default'],
             name: api.data.name.charAt(0).toUpperCase() + api.data.name.slice(1),
             types: api.data.types.map((aux) => {
                 return {name: aux.type.name.charAt(0).toUpperCase() + aux.type.name.slice(1)};;
