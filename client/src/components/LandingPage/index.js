@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import {StyledDiv} from './styled';
-import pokedex from '../../assets/pokedex.png';
+import pokedex from '../../assets/pokedex1.png';
 
 export const LandingPage = () => {
 	return (

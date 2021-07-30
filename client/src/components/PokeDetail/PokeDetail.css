@@ -5,9 +5,4 @@
 	margin: 0px -9px 0px -9px;
 	justify-content: center;
     flex-wrap : wrap;
-    background-image: url('../../assets/image.png');
-    background-position: center center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
 }

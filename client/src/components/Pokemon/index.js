@@ -13,6 +13,73 @@ const Pokemon = ({
 	types,
 	image,
 }) => {
+	const cssButtonType = (tipo) => {
+		switch (tipo.name) {
+			case 'Normal': {
+				return 'tipo_normal'
+			}
+			case 'Fighting': {
+				return 'tipo_fighting'
+			}
+			case 'Flying': {
+				return 'tipo_flying'
+			}
+			case 'Poison': {
+				return 'tipo_poison'
+			}            
+			case 'Ground': {
+				return 'tipo_ground'
+			}
+			case 'Rock': {
+				return 'tipo_rock'
+			}            
+			case 'Bug': {
+				return 'tipo_bug'
+			}
+			case 'Ghost': {
+				return 'tipo_ghost'
+			}
+			case 'Steel': {
+				return 'tipo_steel'
+			}
+			case 'Fire': {
+				return 'tipo_fire'
+			}
+			case 'Water': {
+				return 'tipo_water'
+			}
+			case 'Grass': {
+				return 'tipo_grass'
+			}
+			case 'Electric': {
+				return 'tipo_electric'
+			}
+			case 'Psychic': {
+				return 'tipo_psychic'
+			}
+			case 'Ice': {
+				return 'tipo_ice'
+			}
+			case 'Dragon': {
+				return 'tipo_dragon'
+			}
+			case 'Dark': {
+				return 'tipo_dark'
+			}       
+			case 'Fairy': {
+				return 'tipo_fairy'
+			}
+			case 'Unknown': {
+				return 'tipo_unknown'
+			}       
+			case 'Shadow': {
+				return 'tipo_shadow'
+			}
+			default:
+				return 'tipo_normal'
+		}
+    }
+
 	return (
 			<div className='div_poke_card' key={id}>
 				<div className='div_img'>
@@ -20,7 +87,7 @@ const Pokemon = ({
 					<div className='div_type_container'>
 						{types &&
 							types.map((el, i) => (
-								<div key={i} className='div_types'>
+								<div key={i} className={cssButtonType(el)}>
 									<p key={el.name} className='p'>
 										{el.name}
 									</p>

@@ -2,13 +2,445 @@
     text-decoration: none;
     color: inherit;
 }
-.div_card {
+.div_grass {
     text-align: center;
     margin: 5px;
-    height: 250px;
-    background-color: #00000077;
+    height: 220px;
+    background-color: #00000098;
+    border-style: solid;
+    border-color: rgb(122,199,76);
+    border-width: 4px;
     border-radius: 9px;
     transition: 0.3s;
+}
+.div_grass:hover {
+    transform: translateY(-3px);
+    cursor: pointer;
+    transition: 0.3s;
+	background-color: rgba(0, 0, 0, 0.89);
+	box-shadow: 0 0 5px 0 black;
+}
+.div_grass:active {
+    outline: 0;
+    transform: translateY(3px);
+}
+.div_fire {
+    text-align: center;
+    margin: 5px;
+    height: 220px;
+    background-color: #00000098;
+    border-style: solid;
+    border-color: rgb(238,129,48);
+    border-width: 4px;
+    border-radius: 9px;
+    transition: 0.3s;
+}
+.div_fire:hover {
+    transform: translateY(-3px);
+    cursor: pointer;
+    transition: 0.3s;
+	background-color: rgba(0, 0, 0, 0.89);
+	box-shadow: 0 0 5px 0 black;
+}
+.div_fire:active {
+    outline: 0;
+    transform: translateY(3px);
+}
+.div_water {
+    text-align: center;
+    margin: 5px;
+    height: 220px;
+    background-color: #00000098;
+    border-style: solid;
+    border-color: rgb(99,144,240);
+    border-width: 4px;
+    border-radius: 9px;
+    transition: 0.3s;
+}
+.div_water:hover {
+    transform: translateY(-3px);
+    cursor: pointer;
+    transition: 0.3s;
+	background-color: rgba(0, 0, 0, 0.89);
+	box-shadow: 0 0 5px 0 black;
+}
+.div_water:active {
+    outline: 0;
+    transform: translateY(3px);
+}
+.div_bug {
+    text-align: center;
+    margin: 5px;
+    height: 220px;
+    background-color: #00000098;
+    border-style: solid;
+    border-color: rgb(191,213,26);
+    border-width: 4px;
+    border-radius: 9px;
+    transition: 0.3s;
+}
+.div_bug:hover {
+    transform: translateY(-3px);
+    cursor: pointer;
+    transition: 0.3s;
+	background-color: rgba(0, 0, 0, 0.89);
+	box-shadow: 0 0 5px 0 black;
+}
+.div_bug:active {
+    outline: 0;
+    transform: translateY(3px);
+}
+.div_normal {
+    text-align: center;
+    margin: 5px;
+    height: 220px;
+    background-color: #00000098;
+    border-style: solid;
+    border-color: rgb(168,167,122);
+    border-width: 4px;
+    border-radius: 9px;
+    transition: 0.3s;
+}
+.div_normal:hover {
+    transform: translateY(-3px);
+    cursor: pointer;
+    transition: 0.3s;
+	background-color: rgba(0, 0, 0, 0.89);
+	box-shadow: 0 0 5px 0 black;
+}
+.div_normal:active {
+    outline: 0;
+    transform: translateY(3px);
+}
+.div_poison {
+    text-align: center;
+    margin: 5px;
+    height: 220px;
+    background-color: #00000098;
+    border-style: solid;
+    border-color: rgb(156,66,154);
+    border-width: 4px;
+    border-radius: 9px;
+    transition: 0.3s;
+}
+.div_poison:hover {
+    transform: translateY(-3px);
+    cursor: pointer;
+    transition: 0.3s;
+	background-color: rgba(0, 0, 0, 0.89);
+	box-shadow: 0 0 5px 0 black;
+}
+.div_poison:active {
+    outline: 0;
+    transform: translateY(3px);
+}
+.div_electric {
+    text-align: center;
+    margin: 5px;
+    height: 220px;
+    background-color: #00000098;
+    border-style: solid;
+    border-color: rgb(247,208,44);
+    border-width: 4px;
+    border-radius: 9px;
+    transition: 0.3s;
+}
+.div_electric:hover {
+    transform: translateY(-3px);
+    cursor: pointer;
+    transition: 0.3s;
+	background-color: rgba(0, 0, 0, 0.89);
+	box-shadow: 0 0 5px 0 black;
+}
+.div_electric:active {
+    outline: 0;
+    transform: translateY(3px);
+}
+.div_ground {
+    text-align: center;
+    margin: 5px;
+    height: 220px;
+    background-color: #00000098;
+    border-style: solid;
+    border-color: rgb(145, 84, 15);
+    border-width: 4px;
+    border-radius: 9px;
+    transition: 0.3s;
+}
+.div_ground:hover {
+    transform: translateY(-3px);
+    cursor: pointer;
+    transition: 0.3s;
+	background-color: rgba(0, 0, 0, 0.89);
+	box-shadow: 0 0 5px 0 black;
+}
+.div_ground:active {
+    outline: 0;
+    transform: translateY(3px);
+}
+.div_fairy {
+    text-align: center;
+    margin: 5px;
+    height: 220px;
+    background-color: #00000098;
+    border-style: solid;
+    border-color: rgb(214,133,173);
+    border-width: 4px;
+    border-radius: 9px;
+    transition: 0.3s;
+}
+.div_fairy:hover {
+    transform: translateY(-3px);
+    cursor: pointer;
+    transition: 0.3s;
+	background-color: rgba(0, 0, 0, 0.89);
+	box-shadow: 0 0 5px 0 black;
+}
+.div_fairy:active {
+    outline: 0;
+    transform: translateY(3px);
+}
+.div_fighting {
+    text-align: center;
+    margin: 5px;
+    height: 220px;
+    background-color: #00000098;
+    border-style: solid;
+    border-color: rgb(194,46,40);
+    border-width: 4px;
+    border-radius: 9px;
+    transition: 0.3s;
+}
+.div_fighting:hover {
+    transform: translateY(-3px);
+    cursor: pointer;
+    transition: 0.3s;
+	background-color: rgba(0, 0, 0, 0.89);
+	box-shadow: 0 0 5px 0 black;
+}
+.div_fighting:active {
+    outline: 0;
+    transform: translateY(3px);
+}
+.div_psychic {
+    text-align: center;
+    margin: 5px;
+    height: 220px;
+    background-color: #00000098;
+    border-style: solid;
+    border-color: rgb(249,85,135);
+    border-width: 4px;
+    border-radius: 9px;
+    transition: 0.3s;
+}
+.div_psychic:hover {
+    transform: translateY(-3px);
+    cursor: pointer;
+    transition: 0.3s;
+	background-color: rgba(0, 0, 0, 0.89);
+	box-shadow: 0 0 5px 0 black;
+}
+.div_psychic:active {
+    outline: 0;
+    transform: translateY(3px);
+}
+.div_rock {
+    text-align: center;
+    margin: 5px;
+    height: 220px;
+    background-color: #00000098;
+    border-style: solid;
+    border-color: rgb(99, 99, 99);
+    border-width: 4px;
+    border-radius: 9px;
+    transition: 0.3s;
+}
+.div_rock:hover {
+    transform: translateY(-3px);
+    cursor: pointer;
+    transition: 0.3s;
+	background-color: rgba(0, 0, 0, 0.89);
+	box-shadow: 0 0 5px 0 black;
+}
+.div_rock:active {
+    outline: 0;
+    transform: translateY(3px);
+}
+.div_ghost {
+    text-align: center;
+    margin: 5px;
+    height: 220px;
+    background-color: #00000098;
+    border-style: solid;
+    border-color: rgb(115,87,151);
+    border-width: 4px;
+    border-radius: 9px;
+    transition: 0.3s;
+}
+.div_ghost:hover {
+    transform: translateY(-3px);
+    cursor: pointer;
+    transition: 0.3s;
+	background-color: rgba(0, 0, 0, 0.89);
+	box-shadow: 0 0 5px 0 black;
+}
+.div_ghost:active {
+    outline: 0;
+    transform: translateY(3px);
+}
+.div_ice {
+    text-align: center;
+    margin: 5px;
+    height: 220px;
+    background-color: #00000098;
+    border-style: solid;
+    border-color: rgb(179,236,233);
+    border-width: 4px;
+    border-radius: 9px;
+    transition: 0.3s;
+}
+.div_ice:hover {
+    transform: translateY(-3px);
+    cursor: pointer;
+    transition: 0.3s;
+	background-color: rgba(0, 0, 0, 0.89);
+	box-shadow: 0 0 5px 0 black;
+}
+.div_ice:active {
+    outline: 0;
+    transform: translateY(3px);
+}
+.div_dragon {
+    text-align: center;
+    margin: 5px;
+    height: 220px;
+    background-color: #00000098;
+    border-style: solid;
+    border-color: rgb(118,61,255);
+    border-width: 4px;
+    border-radius: 9px;
+    transition: 0.3s;
+}
+.div_dragon:hover {
+    transform: translateY(-3px);
+    cursor: pointer;
+    transition: 0.3s;
+	background-color: rgba(0, 0, 0, 0.89);
+	box-shadow: 0 0 5px 0 black;
+}
+.div_dragon:active {
+    outline: 0;
+    transform: translateY(3px);
+}
+.div_dark {
+    text-align: center;
+    margin: 5px;
+    height: 220px;
+    background-color: #00000098;
+    border-style: solid;
+    border-color: rgb(47,47,47);
+    border-width: 4px;
+    border-radius: 9px;
+    transition: 0.3s;
+}
+.div_dark:hover {
+    transform: translateY(-3px);
+    cursor: pointer;
+    transition: 0.3s;
+	background-color: rgba(0, 0, 0, 0.89);
+	box-shadow: 0 0 5px 0 black;
+}
+.div_dark:active {
+    outline: 0;
+    transform: translateY(3px);
+}
+.div_steel {
+    text-align: center;
+    margin: 5px;
+    height: 220px;
+    background-color: #00000098;
+    border-style: solid;
+    border-color: rgb(183,183,206);
+    border-width: 4px;
+    border-radius: 9px;
+    transition: 0.3s;
+}
+.div_steel:hover {
+    transform: translateY(-3px);
+    cursor: pointer;
+    transition: 0.3s;
+	background-color: rgba(0, 0, 0, 0.89);
+	box-shadow: 0 0 5px 0 black;
+}
+.div_steel:active {
+    outline: 0;
+    transform: translateY(3px);
+}
+.div_flying  {
+    text-align: center;
+    margin: 5px;
+    height: 220px;
+    background-color: #00000098;
+    border-style: solid;
+    border-color: rgb(145, 152, 255);
+    border-width: 4px;
+    border-radius: 9px;
+    transition: 0.3s;
+}
+.div_flying:hover {
+    transform: translateY(-3px);
+    cursor: pointer;
+    transition: 0.3s;
+	background-color: rgba(0, 0, 0, 0.89);
+	box-shadow: 0 0 5px 0 black;
+}
+.div_flying:active {
+    outline: 0;
+    transform: translateY(3px);
+}
+.div_unknown {
+    text-align: center;
+    margin: 5px;
+    height: 220px;
+    background-color: #00000098;
+    border-style: solid;
+    border-color: #336666;
+    border-width: 4px;
+    border-radius: 9px;
+    transition: 0.3s;
+}
+.div_unknown:hover {
+    transform: translateY(-3px);
+    cursor: pointer;
+    transition: 0.3s;
+	background-color: rgba(0, 0, 0, 0.89);
+	box-shadow: 0 0 5px 0 black;
+}
+.div_unknown:active {
+    outline: 0;
+    transform: translateY(3px);
+}
+.div_shadow {
+    text-align: center;
+    margin: 5px;
+    height: 220px;
+    background-color: #00000098;
+    border-style: solid;
+    border-color: rgb(24, 51, 141);
+    border-width: 4px;
+    border-radius: 9px;
+    transition: 0.3s;
+}
+.div_shadow:hover {
+    transform: translateY(-3px);
+    cursor: pointer;
+    transition: 0.3s;
+	background-color: rgba(0, 0, 0, 0.89);
+	box-shadow: 0 0 5px 0 black;
+}
+.div_shadow:active {
+    outline: 0;
+    transform: translateY(3px);
 }
 img {
     margin: 0px 0px -10px -10px;
@@ -29,13 +461,13 @@ img {
     flex-direction: row;
     justify-content: center;
 }
-.div_types {
+.tipo_grass {
     margin: 9px 0px 0px 7px;
     padding: 1px 1px 1px 1px;
     font-size: 18px;
     border-style: solid;
-    border-color: white;
-    color: white;
+    border-color: rgb(122,199,76);
+    color: rgb(122,199,76);
     border-width: 2px;
     border-radius: 6px;
     background-color: transparent;
@@ -44,14 +476,231 @@ img {
 .p {
     margin: 0px 7px 0px 7px;
 }
-.div_card:hover {
-    transform: translateY(-3px);
-    cursor: pointer;
-    transition: 0.3s;
-	background-color: rgba(0, 0, 0, 0.89);
-	box-shadow: 0 0 5px 0 black;
+.tipo_fire {
+    margin: 9px 0px 0px 7px;
+    padding: 1px 1px 1px 1px;
+    font-size: 18px;
+    border-style: solid;
+    border-color: rgb(238,129,48);
+    color: rgb(238,129,48);
+    border-width: 2px;
+    border-radius: 6px;
+    background-color: transparent;
+    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3);
 }
-.div_card:active {
-    outline: 0;
-    transform: translateY(3px);
+.tipo_water {
+    margin: 9px 0px 0px 7px;
+    padding: 1px 1px 1px 1px;
+    font-size: 18px;
+    border-style: solid;
+    border-color: rgb(99,144,240);
+    color: rgb(99,144,240);
+    border-width: 2px;
+    border-radius: 6px;
+    background-color: transparent;
+    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3);
+}
+.tipo_bug {
+    margin: 9px 0px 0px 7px;
+    padding: 1px 1px 1px 1px;
+    font-size: 18px;
+    border-style: solid;
+    border-color: rgb(191,213,26);
+    color: rgb(191,213,26);
+    border-width: 2px;
+    border-radius: 6px;
+    background-color: transparent;
+    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3);
+}
+.tipo_normal {
+    margin: 9px 0px 0px 7px;
+    padding: 1px 1px 1px 1px;
+    font-size: 18px;
+    border-style: solid;
+    border-color: rgb(168,167,122);
+    color: rgb(168,167,122);
+    border-width: 2px;
+    border-radius: 6px;
+    background-color: transparent;
+    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3);
+}
+.tipo_poison {
+    margin: 9px 0px 0px 7px;
+    padding: 1px 1px 1px 1px;
+    font-size: 18px;
+    border-style: solid;
+    border-color: rgb(156,66,154);
+    color: rgb(156,66,154);
+    border-width: 2px;
+    border-radius: 6px;
+    background-color: transparent;
+    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3);
+}
+.tipo_electric {
+    margin: 9px 0px 0px 7px;
+    padding: 1px 1px 1px 1px;
+    font-size: 18px;
+    border-style: solid;
+    border-color: rgb(247,208,44);
+    color: rgb(247,208,44);
+    border-width: 2px;
+    border-radius: 6px;
+    background-color: transparent;
+    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3);
+}
+.tipo_ground {
+    margin: 9px 0px 0px 7px;
+    padding: 1px 1px 1px 1px;
+    font-size: 18px;
+    border-style: solid;
+    border-color: rgb(145, 84, 15);
+    color: rgb(145, 84, 15);
+    border-width: 2px;
+    border-radius: 6px;
+    background-color: transparent;
+    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3);
+}
+.tipo_fairy {
+    margin: 9px 0px 0px 7px;
+    padding: 1px 1px 1px 1px;
+    font-size: 18px;
+    border-style: solid;
+    border-color: rgb(214,133,173);
+    color: rgb(214,133,173);
+    border-width: 2px;
+    border-radius: 6px;
+    background-color: transparent;
+    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3);
+}
+.tipo_fighting {
+    margin: 9px 0px 0px 7px;
+    padding: 1px 1px 1px 1px;
+    font-size: 18px;
+    border-style: solid;
+    border-color: rgb(194,46,40);
+    color: rgb(194,46,40);
+    border-width: 2px;
+    border-radius: 6px;
+    background-color: transparent;
+    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3);
+}
+.tipo_psychic {
+    margin: 9px 0px 0px 7px;
+    padding: 1px 1px 1px 1px;
+    font-size: 18px;
+    border-style: solid;
+    border-color: rgb(249,85,135);
+    color: rgb(249,85,135);
+    border-width: 2px;
+    border-radius: 6px;
+    background-color: transparent;
+    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3);
+}
+.tipo_rock {
+    margin: 9px 0px 0px 7px;
+    padding: 1px 1px 1px 1px;
+    font-size: 18px;
+    border-style: solid;
+    border-color: rgb(99, 99, 99);
+    color: rgb(99, 99, 99);
+    border-width: 2px;
+    border-radius: 6px;
+    background-color: transparent;
+    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3);
+}
+.tipo_ghost {
+    margin: 9px 0px 0px 7px;
+    padding: 1px 1px 1px 1px;
+    font-size: 18px;
+    border-style: solid;
+    border-color: rgb(115,87,151);
+    color: rgb(115,87,151);
+    border-width: 2px;
+    border-radius: 6px;
+    background-color: transparent;
+    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3);
+}
+.tipo_ice {
+    margin: 9px 0px 0px 7px;
+    padding: 1px 1px 1px 1px;
+    font-size: 18px;
+    border-style: solid;
+    border-color: rgb(179,236,233);
+    color: rgb(179,236,233);
+    border-width: 2px;
+    border-radius: 6px;
+    background-color: transparent;
+    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3);
+}
+.tipo_dragon {
+    margin: 9px 0px 0px 7px;
+    padding: 1px 1px 1px 1px;
+    font-size: 18px;
+    border-style: solid;
+    border-color: rgb(118,61,255);
+    color: rgb(118,61,255);
+    border-width: 2px;
+    border-radius: 6px;
+    background-color: transparent;
+    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3);
+}
+.tipo_dark {
+    margin: 9px 0px 0px 7px;
+    padding: 1px 1px 1px 1px;
+    font-size: 18px;
+    border-style: solid;
+    border-color: rgb(47,47,47);
+    color: rgb(47,47,47);
+    border-width: 2px;
+    border-radius: 6px;
+    background-color: transparent;
+    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3);
+}
+.tipo_steel {
+    margin: 9px 0px 0px 7px;
+    padding: 1px 1px 1px 1px;
+    font-size: 18px;
+    border-style: solid;
+    border-color: rgb(183,183,206);
+    color: rgb(183,183,206);
+    border-width: 2px;
+    border-radius: 6px;
+    background-color: transparent;
+    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3);
+}
+.tipo_flying {
+    margin: 9px 0px 0px 7px;
+    padding: 1px 1px 1px 1px;
+    font-size: 18px;
+    border-style: solid;
+    border-color: rgb(145, 152, 255);
+    color: rgb(145, 152, 255);
+    border-width: 2px;
+    border-radius: 6px;
+    background-color: transparent;
+    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3);
+}
+.tipo_unknown {
+    margin: 9px 0px 0px 7px;
+    padding: 1px 1px 1px 1px;
+    font-size: 18px;
+    border-style: solid;
+    border-color: #336666;
+    color: #336666;
+    border-width: 2px;
+    border-radius: 6px;
+    background-color: transparent;
+    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3);
+}
+.tipo_shadow {
+    margin: 9px 0px 0px 7px;
+    padding: 1px 1px 1px 1px;
+    font-size: 18px;
+    border-style: solid;
+    border-color: rgb(24, 51, 141);
+    color: rgb(24, 51, 141);
+    border-width: 2px;
+    border-radius: 6px;
+    background-color: transparent;
+    box-shadow: 0px 3px 3px 1px rgba(0, 0, 0, 0.3);
 }

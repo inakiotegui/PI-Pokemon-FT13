@@ -16,8 +16,7 @@ export const PokeDetail = ({
 		getPokemonDetail(match.params.id);
 		return () => clearPokemonDetail();
 	}, []);
-
-	console.log(pokemonDetail)
+	
 	return (
 		<div>
 			<NavBar/>

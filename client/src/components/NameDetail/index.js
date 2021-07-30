@@ -16,8 +16,7 @@ export const NameDetail = ({
 		getPokemonSearch(match.params.name);
 		return () => clearPokemonDetail();
 	}, []);
-
-	console.log(pokemonDetail,'***********')
+	
 	return (
 		<div>
 			<NavBar/>

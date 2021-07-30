@@ -21,8 +21,6 @@ export const HomeContainer = ({
 	getPokemons,
 	getPokemonTypes,
 	pokemonList,
-	pokemonFilter,
-	setPokemonsOrigin,
 	clearPokemonDetail,
 }) => {
 	const [numPag, setNumPag] = useState(1)
@@ -35,9 +33,6 @@ export const HomeContainer = ({
 		return () => clearPokemonDetail();
 	}, []);
 
-	const handleClick = (e) => {
-		setPokemonsOrigin(e.target.value);
-	};
 	let ren
 	console.log(pokemonList,'eeeeeeeeeeeeee')
     if (numPag*12 > pokemonList.now.length){
@@ -48,6 +43,7 @@ export const HomeContainer = ({
 	stateAux()
 	const aux= pokemonList.all.length /12;
 	const aux1= Math.ceil(aux)
+	console.log(ren)
 	if(contador<=1){
 		return (
 			<div className='loading_div'>
@@ -65,8 +61,6 @@ export const HomeContainer = ({
 				<div className='div_cards'>
 					{ren.map((pokes) => (
 						<Cards
-							pokemonFilter={pokemonFilter}
-							handleClick={handleClick}
 							key={pokes.id}
 							id={pokes.id}
 							name={pokes.name.charAt(0).toUpperCase() + pokes.name.slice(1)}

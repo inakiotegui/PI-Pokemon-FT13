@@ -69,7 +69,8 @@ export const CreatePokemon = ({pokemonsTypes, getPokemonTypes}) => {
 	};
 
 	const handleChange = (e) => {
-		setData({...Data, [e.target.name]: e.target.value});
+		console.log(e)
+        setData({...Data, [e.target.name]: e.target.value});
 	};
 	const handleTypes = (e) => {
 		if (Types.length < 2) {

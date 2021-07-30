@@ -97,7 +97,6 @@ export const GetPokemonType = (type, array) => {
 				: false
 			: false
 	);
-	console.log(newArray)
 	return newArray;
 };
 
